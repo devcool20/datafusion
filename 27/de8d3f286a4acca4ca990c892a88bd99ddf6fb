@@ -1,0 +1,19 @@
+datafusion-cli/tests/cli_integration.rs
+  s_7cff36b6840a5f::t_dcd77cfdcc4705 60-63
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "27de8d3f286a4acca4ca990c892a88bd99ddf6fb",
+  "prompts": {},
+  "sessions": {
+    "s_7cff36b6840a5f": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1889f-2b0e-7a42-b25a-6ac22f8bd063",
+        "model": "gpt-6.1-terra"
+      },
+      "human_author": "devcool20 <sharmadivyanshu265@gmail.com>"
+    }
+  }
+}
