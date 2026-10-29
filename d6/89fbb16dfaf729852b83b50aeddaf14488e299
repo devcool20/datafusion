@@ -1,0 +1,31 @@
+datafusion/core/tests/physical_optimizer/filter_pushdown.rs
+  s_7cff36b6840a5f::t_ea8533eff10726 1601-1997
+datafusion/physical-plan/src/aggregates/mod.rs
+  s_7cff36b6840a5f::t_1432746374bed8 175,2170-2190,2206,2208,3153
+datafusion/physical-plan/src/filter.rs
+  s_7cff36b6840a5f::t_a74590a8a4317a 36,60-61,70,313-335,708-717,719,743-752,755-761
+datafusion/physical-plan/src/filter_pushdown.rs
+  s_7cff36b6840a5f::t_34784fb21ce661 37,46,316-327,331-332,334-337,341,345-347,351,355-356,358,362,366-378,380,389-390,405-406,408-411,418-420,425-426,428-434,440-475,477,501-508
+datafusion/physical-plan/src/joins/hash_join/exec.rs
+  s_7cff36b6840a5f::t_0b5fba68aec594 18,1687-1690,1693-1694,1703-1710,1712-1713,1715-1730,1732-1744,1750,1752,1760,1762
+datafusion/physical-plan/src/projection.rs
+  s_7cff36b6840a5f::t_07d9a4ff2dd5a0 51,470-472,474
+datafusion/sqllogictest/test_files/dynamic_filter_pushdown_config.slt
+  s_7cff36b6840a5f::t_f4c76418e25ec0 906-1177
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "d689fbb16dfaf729852b83b50aeddaf14488e299",
+  "prompts": {},
+  "sessions": {
+    "s_7cff36b6840a5f": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1889f-2b0e-7a42-b25a-6ac22f8bd063",
+        "model": "gpt-6.1-terra"
+      },
+      "human_author": "devcool20 <sharmadivyanshu265@gmail.com>"
+    }
+  }
+}
