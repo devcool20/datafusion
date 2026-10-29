@@ -57,6 +57,10 @@ async fn setup_minio_container() -> Result<ContainerAsync<minio::MinIO>, String>
         .expect("Failed to get absolute path for test data");
 
     let container = minio::MinIO::default()
+        // The upstream MinIO image is no longer publicly available. Pin a mirror
+        // by digest so the S3 integration tests use a reproducible image.
+        .with_name("dappros/minio")
+        .with_tag("RELEASE.2025-09-07T16-13-09Z@sha256:624bad2fe79a8613aa3c5c9b765ebcab365080b8445cf1b05c357cc7753725f0")
         .with_env_var("MINIO_ROOT_USER", MINIO_ROOT_USER)
         .with_env_var("MINIO_ROOT_PASSWORD", MINIO_ROOT_PASSWORD)
         .with_mount(Mount::bind_mount(
